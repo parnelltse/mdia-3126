@@ -1,13 +1,9 @@
 import { Text, View } from "react-native";
 
-export default function Label({ labelText }) {
+export default function Label({ labelText, style }) {
     return (
         <View>
-            <Text
-                style={{ color: "salmon" }} 
-            >
-                {labelText}
-            </Text>
+            <Text style={style}>{labelText}</Text>
         </View>
     );
 }

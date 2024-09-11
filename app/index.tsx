@@ -11,9 +11,9 @@ export default function Index() {
       }}
     >
       <InputForm 
-        textForLabel="peepeepoopoo"
-        textForButton="geh"
-        textForPlaceholder="poopypants"
+        textForLabel="Kanye"
+        textForButton="woo"
+        textForPlaceholder="Bada the bada the boom, I bada the boom, I bada the bing"
       />
     </View>
   );
